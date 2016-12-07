@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="12.6.1" version="12.6.1" Modules="professional" RootPath="." Language="en" Id="{F27B8B2A-085A-4F1C-8F37-24C3A82D4017}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1" MultiBuildValue="Build:2#Build_1:2"/>
+    <ROW Property="ARPCOMMENTS" Value="Bartender Recipes" ValueLocId="*"/>
+    <ROW Property="ARPCONTACT" Value="LollieSoft"/>
+    <ROW Property="ARPHELPLINK" Value="http://www.lolliesoft.com/bartenderexpress"/>
+    <ROW Property="ARPPRODUCTICON" Value="Bartender.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="http://www.lolliesoft.com"/>
+    <ROW Property="AspNetVersion" Value="2.0.50727.0"/>
+    <ROW Property="Manufacturer" Value="LollieSoft"/>
+    <ROW Property="ProductCode" Value="1033:{FB16F64B-E941-481A-A914-0489A913CEF5} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Bartender Express"/>
+    <ROW Property="ProductVersion" Value="3.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{3ED90688-53BC-465C-9FB7-0B14AD2DD0DF}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="Build:Windows 9x/ME#Build_1:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="Build:Windows 9x/ME#Build_1:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="Build:Windows NT 4.0#Build_1:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="Build:Windows NT 4.0#Build_1:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="Build:Windows 2000#Build_1:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="Build:Windows 2000#Build_1:Windows 2000" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="AppDataFolder" Directory_Parent="TARGETDIR" DefaultDir="APPDAT~1|AppDataFolder" IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="ProgramMenuFolder" Directory_Parent="TARGETDIR" DefaultDir="PROGRA~1|ProgramMenuFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="_6F660C89F785462A8CD1ACAD4886AC69" Directory_Parent="APPDIR" DefaultDir="Setup"/>
+    <ROW Directory="_E6094502C4EC4FEA8A61037D128D107A" Directory_Parent="AppDataFolder" DefaultDir="LOLLIE~1|Lolliesoft"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="C__23EA5169487A47319DCA6A4F6C71C34A" ComponentId="{5E9B6ABD-B2A9-4BA7-AB7C-1100120D9628}" Directory_="APPDIR" Attributes="0" KeyPath="_23EA5169487A47319DCA6A4F6C71C34A"/>
+    <ROW Component="C__306F4554C66D466E91699F4D01FA6E85" ComponentId="{2097CAEF-281D-499B-A317-2DB0B75DB99B}" Directory_="APPDIR" Attributes="0" KeyPath="_306F4554C66D466E91699F4D01FA6E85"/>
+    <ROW Component="C__48C9F773D7894DB09DDA9EBE263FD2E1" ComponentId="{32480061-2C6C-43C3-BF0D-8DE215419504}" Directory_="_6F660C89F785462A8CD1ACAD4886AC69" Attributes="0" KeyPath="_48C9F773D7894DB09DDA9EBE263FD2E1"/>
+    <ROW Component="C__57A5C65397904ED8AE9D2730623FEC38" ComponentId="{110181DC-F459-465D-98DB-8C493DDCDC1B}" Directory_="_6F660C89F785462A8CD1ACAD4886AC69" Attributes="0" KeyPath="_57A5C65397904ED8AE9D2730623FEC38"/>
+    <ROW Component="C__69E01282395DDB7AF2D2FB0556363C1D" ComponentId="{34953877-A71B-4FEB-83C2-AD4AFCEF6F4F}" Directory_="APPDIR" Attributes="0" KeyPath="_69E01282395DDB7AF2D2FB0556363C1D"/>
+    <ROW Component="C__73A4DCF608684834A86ED38BBD5E1915" ComponentId="{68CB6C6B-B815-43B3-BD47-80A9616BBC1D}" Directory_="_6F660C89F785462A8CD1ACAD4886AC69" Attributes="0" KeyPath="_73A4DCF608684834A86ED38BBD5E1915"/>
+    <ROW Component="C__79AEE5853AFCA8615ED588D0267CEA39" ComponentId="{10671A1D-5A70-4FA9-A9BB-130A0571AF5D}" Directory_="APPDIR" Attributes="0" KeyPath="_79AEE5853AFCA8615ED588D0267CEA39"/>
+    <ROW Component="C__8D1DFB78C33B4C518E1A7F60B7E7C01C" ComponentId="{0D3B35BA-E203-419F-B6FA-4E7D14B1BDF9}" Directory_="DesktopFolder" Attributes="0"/>
+    <ROW Component="C__A5751FBA92984A4C84071A4E9BCD83D2" ComponentId="{AED7E192-F3C9-4BE2-BD70-9A9E981B8357}" Directory_="APPDIR" Attributes="0" KeyPath="_A5751FBA92984A4C84071A4E9BCD83D2" Type="1"/>
+    <ROW Component="C__B2E27783D3184B5EA19624CBD90F5898" ComponentId="{3FD7956F-8716-45BD-87B4-0E4498D0EF73}" Directory_="_6F660C89F785462A8CD1ACAD4886AC69" Attributes="0" KeyPath="_B2E27783D3184B5EA19624CBD90F5898"/>
+    <ROW Component="C__CD77A91E52BD456E8503457F16C492C5" ComponentId="{15230030-9D16-4972-98FF-C9618B4FCE66}" Directory_="_E6094502C4EC4FEA8A61037D128D107A" Attributes="0" KeyPath="_CD77A91E52BD456E8503457F16C492C5"/>
+    <ROW Component="C__CF3B77C54BFD4BAA948C360F0678F9F7" ComponentId="{98D2ED88-7B34-40D5-8432-AF1D72B593E1}" Directory_="_E6094502C4EC4FEA8A61037D128D107A" Attributes="0" KeyPath="_CF3B77C54BFD4BAA948C360F0678F9F7"/>
+    <ROW Component="C__D99D3E57A5F64604A9157B7847842FC4" ComponentId="{3E899744-33B7-4979-8ED7-4BBDAC52D165}" Directory_="_E6094502C4EC4FEA8A61037D128D107A" Attributes="0" KeyPath="_D99D3E57A5F64604A9157B7847842FC4"/>
+    <ROW Component="C__DAA79127D515D92F84105B12ADA2C9B6" ComponentId="{B6FB3497-4168-447A-968A-E50315F03219}" Directory_="APPDIR" Attributes="0" KeyPath="_DAA79127D515D92F84105B12ADA2C9B6"/>
+    <ROW Component="C__E93FCC78B980428C8B27390F2A1554BE" ComponentId="{B1C4056E-93A2-4D05-8B71-427D67C235EF}" Directory_="_6F660C89F785462A8CD1ACAD4886AC69" Attributes="0" KeyPath="_E93FCC78B980428C8B27390F2A1554BE"/>
+    <ROW Component="C__F66F12A07DB540FD870801F0F84CEF03" ComponentId="{31B507C4-581B-484B-ACCC-ED84B4200DA2}" Directory_="APPDIR" Attributes="0" KeyPath="_F66F12A07DB540FD870801F0F84CEF03"/>
+    <ROW Component="ProductInformation" ComponentId="{85B553EB-90DB-46E6-B420-131D3026DAE7}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="DefaultFeature" Title="DefaultFeature" Display="2" Level="1" Directory_="APPDIR" Attributes="0" Components="C__23EA5169487A47319DCA6A4F6C71C34A C__306F4554C66D466E91699F4D01FA6E85 C__48C9F773D7894DB09DDA9EBE263FD2E1 C__57A5C65397904ED8AE9D2730623FEC38 C__69E01282395DDB7AF2D2FB0556363C1D C__73A4DCF608684834A86ED38BBD5E1915 C__79AEE5853AFCA8615ED588D0267CEA39 C__8D1DFB78C33B4C518E1A7F60B7E7C01C C__A5751FBA92984A4C84071A4E9BCD83D2 C__B2E27783D3184B5EA19624CBD90F5898 C__CD77A91E52BD456E8503457F16C492C5 C__CF3B77C54BFD4BAA948C360F0678F9F7 C__D99D3E57A5F64604A9157B7847842FC4 C__DAA79127D515D92F84105B12ADA2C9B6 C__E93FCC78B980428C8B27390F2A1554BE C__F66F12A07DB540FD870801F0F84CEF03"/>
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="ProductInformation"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="_23EA5169487A47319DCA6A4F6C71C34A" Component_="C__23EA5169487A47319DCA6A4F6C71C34A" FileName="BARTEN~2.EXE|bartenderExpress.exe" Attributes="512" SourcePath="..\bartenderExpress\obj\x86\Debug\bartenderExpress.exe" SelfReg="false"/>
+    <ROW File="_306F4554C66D466E91699F4D01FA6E85" Component_="C__306F4554C66D466E91699F4D01FA6E85" FileName="BARBAS~1.PDF|barbasics.pdf" Attributes="512" SourcePath="..\bartenderExpress\bin\Debug\barbasics.pdf" SelfReg="false" NextFile="_48C9F773D7894DB09DDA9EBE263FD2E1"/>
+    <ROW File="_48C9F773D7894DB09DDA9EBE263FD2E1" Component_="C__48C9F773D7894DB09DDA9EBE263FD2E1" FileName="LOLLIE~1.BMP|lolliesoftsetuplogo.bmp" Attributes="512" SourcePath="..\bartenderExpress\bin\Debug\lolliesoftsetuplogo.bmp" SelfReg="false" NextFile="_57A5C65397904ED8AE9D2730623FEC38"/>
+    <ROW File="_57A5C65397904ED8AE9D2730623FEC38" Component_="C__57A5C65397904ED8AE9D2730623FEC38" FileName="BARTEN~1.ICO|Bartender.ico" Attributes="512" SourcePath="..\..\Bartender.ico" SelfReg="false" NextFile="_69E01282395DDB7AF2D2FB0556363C1D"/>
+    <ROW File="_69E01282395DDB7AF2D2FB0556363C1D" Component_="C__69E01282395DDB7AF2D2FB0556363C1D" FileName="SECURE~1.DLL|SecureApp.dll" Attributes="512" SourcePath="SecureApp.dll" SelfReg="false" NextFile="_73A4DCF608684834A86ED38BBD5E1915"/>
+    <ROW File="_73A4DCF608684834A86ED38BBD5E1915" Component_="C__73A4DCF608684834A86ED38BBD5E1915" FileName="readme.rtf" Attributes="512" SourcePath="..\bartenderExpress\bin\Debug\readme.rtf" SelfReg="false" NextFile="_79AEE5853AFCA8615ED588D0267CEA39"/>
+    <ROW File="_79AEE5853AFCA8615ED588D0267CEA39" Component_="C__79AEE5853AFCA8615ED588D0267CEA39" FileName="SYSTEM~1.DLL|System.Data.SqlServerCe.dll" Attributes="512" SourcePath="System.Data.SqlServerCe.dll" SelfReg="false" NextFile="_A5751FBA92984A4C84071A4E9BCD83D2"/>
+    <ROW File="_A5751FBA92984A4C84071A4E9BCD83D2" Component_="C__A5751FBA92984A4C84071A4E9BCD83D2" FileName="BARTEN~1.CHM|bartenderexpress.chm" Attributes="512" SourcePath="..\bartenderExpress\bin\Debug\bartenderexpress.chm" SelfReg="false" NextFile="_B2E27783D3184B5EA19624CBD90F5898"/>
+    <ROW File="_B2E27783D3184B5EA19624CBD90F5898" Component_="C__B2E27783D3184B5EA19624CBD90F5898" FileName="BARTEN~1.BMP|bartenderxxpresslogo.bmp" Attributes="512" SourcePath="..\bartenderExpress\bin\Debug\bartenderxxpresslogo.bmp" SelfReg="false" NextFile="_CD77A91E52BD456E8503457F16C492C5"/>
+    <ROW File="_CD77A91E52BD456E8503457F16C492C5" Component_="C__CD77A91E52BD456E8503457F16C492C5" FileName="XPRESS~1.DB|XpressShots.db" Attributes="512" SourcePath="..\bartenderExpress\XpressShots.db" SelfReg="false" NextFile="_CF3B77C54BFD4BAA948C360F0678F9F7"/>
+    <ROW File="_CF3B77C54BFD4BAA948C360F0678F9F7" Component_="C__CF3B77C54BFD4BAA948C360F0678F9F7" FileName="CUSTOM~1.SDF|custom_recipes.sdf" Attributes="512" SourcePath="..\bartenderExpress\custom_recipes.sdf" SelfReg="false" NextFile="_D99D3E57A5F64604A9157B7847842FC4"/>
+    <ROW File="_D99D3E57A5F64604A9157B7847842FC4" Component_="C__D99D3E57A5F64604A9157B7847842FC4" FileName="BARTEN~1.DB|bartenderExpress.db" Attributes="512" SourcePath="..\bartenderExpress\bartenderExpress.db" SelfReg="false" NextFile="_DAA79127D515D92F84105B12ADA2C9B6"/>
+    <ROW File="_DAA79127D515D92F84105B12ADA2C9B6" Component_="C__DAA79127D515D92F84105B12ADA2C9B6" FileName="SYSTEM~2.DLL|System.Data.SQLite.dll" Attributes="512" SourcePath="System.Data.SQLite.dll" SelfReg="false" NextFile="_E93FCC78B980428C8B27390F2A1554BE"/>
+    <ROW File="_E93FCC78B980428C8B27390F2A1554BE" Component_="C__E93FCC78B980428C8B27390F2A1554BE" FileName="license.rtf" Attributes="512" SourcePath="..\bartenderExpress\bin\Debug\license.rtf" SelfReg="false" NextFile="_F66F12A07DB540FD870801F0F84CEF03"/>
+    <ROW File="_F66F12A07DB540FD870801F0F84CEF03" Component_="C__F66F12A07DB540FD870801F0F84CEF03" FileName="BARTEN~1.EXE|bartenderExpressCalculator.exe" Attributes="512" SourcePath="..\bartenderExpress\bin\Debug\bartenderExpressCalculator.exe" SelfReg="false" NextFile="_23EA5169487A47319DCA6A4F6C71C34A"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="Build" BuildName="Debug" BuildOrder="1" BuildType="0" PackageFolder="Debug" PackageFileName="bartenderExpress3.0" Languages="en" InstallationType="4" PackageType="1" UseLargeSchema="true" ExeName="bartenderExpress3.0"/>
+    <ROW BuildKey="Build_1" BuildName="Release" BuildOrder="2" BuildType="0" PackageFolder="Release" PackageFileName="bartenderExpressSetup" Languages="en" InstallationType="4" PackageType="1" UseLargeSchema="true" ExeName="bartenderExpressSetup"/>
+    <ATTRIBUTE name="CurrentBuild" value="Build"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAssemblyComponent">
+    <ROW Component_="C__69E01282395DDB7AF2D2FB0556363C1D" Feature_="DefaultFeature" File_Application="_69E01282395DDB7AF2D2FB0556363C1D" Attributes="0"/>
+    <ROW Component_="C__79AEE5853AFCA8615ED588D0267CEA39" Feature_="DefaultFeature" File_Application="_79AEE5853AFCA8615ED588D0267CEA39" Attributes="0"/>
+    <ROW Component_="C__DAA79127D515D92F84105B12ADA2C9B6" Feature_="DefaultFeature" File_Application="_DAA79127D515D92F84105B12ADA2C9B6" Attributes="0"/>
+    <ROW Component_="C__F66F12A07DB540FD870801F0F84CEF03" Feature_="DefaultFeature" File_Application="_F66F12A07DB540FD870801F0F84CEF03" Attributes="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAssemblyNameComponent">
+    <ROW Component_="C__69E01282395DDB7AF2D2FB0556363C1D" Name="Name" Value="SecureApp" Sync="false"/>
+    <ROW Component_="C__69E01282395DDB7AF2D2FB0556363C1D" Name="Version" Value="1.0.0.5" Sync="false"/>
+    <ROW Component_="C__69E01282395DDB7AF2D2FB0556363C1D" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__69E01282395DDB7AF2D2FB0556363C1D" Name="processorArchitecture" Value="MSIL" Sync="false"/>
+    <ROW Component_="C__79AEE5853AFCA8615ED588D0267CEA39" Name="Name" Value="System.Data.SqlServerCe" Sync="false"/>
+    <ROW Component_="C__79AEE5853AFCA8615ED588D0267CEA39" Name="Version" Value="3.5.1.0" Sync="false"/>
+    <ROW Component_="C__79AEE5853AFCA8615ED588D0267CEA39" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__79AEE5853AFCA8615ED588D0267CEA39" Name="PublicKeyToken" Value="89845dcd8080cc91" Sync="false"/>
+    <ROW Component_="C__79AEE5853AFCA8615ED588D0267CEA39" Name="processorArchitecture" Value="MSIL" Sync="false"/>
+    <ROW Component_="C__DAA79127D515D92F84105B12ADA2C9B6" Name="Name" Value="System.Data.SQLite" Sync="false"/>
+    <ROW Component_="C__DAA79127D515D92F84105B12ADA2C9B6" Name="Version" Value="1.0.81.0" Sync="false"/>
+    <ROW Component_="C__DAA79127D515D92F84105B12ADA2C9B6" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__DAA79127D515D92F84105B12ADA2C9B6" Name="PublicKeyToken" Value="db937bc2d44ff139" Sync="false"/>
+    <ROW Component_="C__DAA79127D515D92F84105B12ADA2C9B6" Name="processorArchitecture" Value="x86" Sync="false"/>
+    <ROW Component_="C__F66F12A07DB540FD870801F0F84CEF03" Name="Name" Value="KitchenCalculator" Sync="false"/>
+    <ROW Component_="C__F66F12A07DB540FD870801F0F84CEF03" Name="Version" Value="0.0.0.0" Sync="false"/>
+    <ROW Component_="C__F66F12A07DB540FD870801F0F84CEF03" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__F66F12A07DB540FD870801F0F84CEF03" Name="processorArchitecture" Value="x86" Sync="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="DesktopFolder" Component_="C__8D1DFB78C33B4C518E1A7F60B7E7C01C" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="Bartender.exe" SourcePath="..\..\Bartender.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_DpiContentScale" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="Build;Build_1"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="Build;Build_1"/>
+    <ROW Condition="SETUPEXEDIR OR (REMOVE=&quot;ALL&quot;)" Description="This package can only be run from a bootstrapper." DescriptionLocId="AI.LaunchCondition.RequireBootstrapper" IsPredefined="true" Builds="Build;Build_1"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="Build;Build_1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="_3E0F58432B1A4C03B26CD3081DB4949F" Directory_="DesktopFolder" Name="BARTEN~1|Bartender Express" Component_="C__23EA5169487A47319DCA6A4F6C71C34A" Target="[#_23EA5169487A47319DCA6A4F6C71C34A]" Hotkey="0" Icon_="Bartender.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR" Advertised="true"/>
+    <ROW Shortcut="_E45F7D6F1DE2402280A67F5DE9C9A660" Directory_="ProgramMenuFolder" Name="BARTEN~1|Bartender Express" Component_="C__23EA5169487A47319DCA6A4F6C71C34A" Target="[#_23EA5169487A47319DCA6A4F6C71C34A]" Hotkey="0" Icon_="Bartender.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR" Advertised="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
