@@ -1,0 +1,17 @@
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\bin\Debug\bartenderExpress.exe.config
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\bin\Debug\custom_recipes.sdf
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\bin\Debug\bartenderExpress.exe
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\bin\Debug\bartenderExpress.pdb
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\bin\Debug\System.Data.SQLite.dll
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\obj\Debug\bartenderExpress.csprojResolveAssemblyReference.cache
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\obj\Debug\bartenderExpress.BAC_Calculator.resources
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\obj\Debug\bartenderExpress.Form1.resources
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\obj\Debug\bartenderExpress.Form2.resources
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\obj\Debug\bartenderExpress.Form3.resources
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\obj\Debug\bartenderExpress.Form4.resources
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\obj\Debug\bartenderExpress.Form5.resources
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\obj\Debug\bartenderExpress.Properties.Resources.resources
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\obj\Debug\bartenderExpress.splashScreen.resources
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\obj\Debug\bartenderExpress.csproj.GenerateResource.Cache
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\obj\Debug\bartenderExpress.exe
+N:\july13\July5\express2\express\bartenderExpress\bartenderExpress\obj\Debug\bartenderExpress.pdb

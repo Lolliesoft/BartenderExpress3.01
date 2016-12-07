@@ -1,0 +1,9 @@
+G:\New_CSharp\KeyGen\KeyGen\bin\Debug\KeyGen.exe
+G:\New_CSharp\KeyGen\KeyGen\bin\Debug\KeyGen.pdb
+G:\New_CSharp\KeyGen\KeyGen\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\New_CSharp\KeyGen\KeyGen\obj\x86\Debug\KeyGen.Form1.resources
+G:\New_CSharp\KeyGen\KeyGen\obj\x86\Debug\KeyGen.Properties.Resources.resources
+G:\New_CSharp\KeyGen\KeyGen\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+G:\New_CSharp\KeyGen\KeyGen\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+G:\New_CSharp\KeyGen\KeyGen\obj\x86\Debug\KeyGen.exe
+G:\New_CSharp\KeyGen\KeyGen\obj\x86\Debug\KeyGen.pdb
